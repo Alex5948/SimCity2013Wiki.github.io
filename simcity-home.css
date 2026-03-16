@@ -1,0 +1,103 @@
+/* Fullscreen background */
+.bg {
+  position: fixed;
+  inset: 0;
+  background: url('your-screenshot.jpg') center/cover no-repeat;
+  filter: brightness(0.55);
+  z-index: -1;
+}
+
+/* Left white panel */
+.panel {
+  width: 600px; /* medium width */
+  height: 100vh;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 40px rgba(0,0,0,0.35);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navigation */
+.nav {
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #1a3a4a;
+  margin-bottom: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  padding: 10px 0;
+  font-size: 15px;
+  color: #3a4a55;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.nav li:hover {
+  color: #0078c8;
+}
+
+.nav .active {
+  color: #0078c8;
+  font-weight: 600;
+}
+
+/* Hero section */
+.hero h1 {
+  font-size: 42px;
+  margin: 0 0 10px;
+  color: #1a3a4a;
+}
+
+.hero p {
+  font-size: 17px;
+  color: #4a5a66;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 20px;
+  background: #0078c8;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 6px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #0094f0;
+}
+
+.btn.secondary {
+  background: #ffffff;
+  color: #0078c8;
+  border: 2px solid #0078c8;
+}
+
+.btn.secondary:hover {
+  background: #e8f6ff;
+}
