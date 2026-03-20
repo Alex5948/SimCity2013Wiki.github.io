@@ -9,7 +9,7 @@
 
 /* Left white panel */
 .panel {
-  width: 600px; /* medium width */
+  width: 600px;
   height: 100vh;
   padding: 40px;
   background: rgba(255, 255, 255, 0.82);
