@@ -106,5 +106,9 @@
 }
 
 body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+body {
   background: none !important;
 }
