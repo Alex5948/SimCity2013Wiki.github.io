@@ -101,3 +101,7 @@
 .btn.secondary:hover {
   background: #e8f6ff;
 }
+
+body {
+  background: transparent;
+}
