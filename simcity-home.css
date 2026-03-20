@@ -2,7 +2,7 @@
 .bg {
   position: fixed;
   inset: 0;
-  background: url('your-screenshot.jpg') center/cover no-repeat;
+  background: url('mainmenuimagebackground.png') center/cover no-repeat;
   filter: brightness(0.55);
   z-index: -1;
 }
